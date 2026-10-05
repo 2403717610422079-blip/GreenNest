@@ -1,0 +1,36 @@
+# Compiled Java Class Files
+*.class
+build/
+target/
+src/main/webapp/WEB-INF/classes/
+
+# Eclipse IDE Project Files
+.project
+.classpath
+.settings/
+.metadata/
+
+# IntelliJ IDEA & VS Code
+.idea/
+*.iml
+.vscode/
+
+# Environment Variables, Secrets & Database Credentials
+.env
+.env.*
+*.local
+credentials.json
+secrets.properties
+
+# Server & Tomcat Generated Files
+logs/
+temp/
+tmp/
+work/
+*.log
+*.tmp
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
